@@ -35,11 +35,32 @@ checkBox.addEventListener('click', onClick);
 
 function ex2(){
 
+    //get reference
+    let textArea = document.querySelector('#body');
+    //sanity
+    console.log(textArea);
+    //get reference
+    let hiddenMessage = document.querySelector('#startTyping');
+    //sanity
+    console.log(hiddenMessage);
+    //get reference
+    let allowTyping = document.querySelector('#button');
+    //sanity
+    console.log(allowTyping);
 
+    //create a function that will remove attribute
+   clickButton = (event) =>
+    {   //let start typing stay on screen
+        event.preventDefault();
+        //remove hidden attribute from h2 element
+        hiddenMessage.removeAttribute('hidden')
+        //change inner text
+        allowTyping.innerText = 'STOP TYPING!!!'
+    }
+    //add event listener to button
+    allowTyping.addEventListener('click', clickButton);
 
-
-
-
+    
 }
 
 main();

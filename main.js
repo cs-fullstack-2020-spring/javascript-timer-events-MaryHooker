@@ -35,6 +35,8 @@ checkBox.addEventListener('click', onClick);
 
 function ex2(){
 
+    // nice process of selecting an element and immediately doing a sanity check
+
     //get reference
     let textArea = document.querySelector('#body');
     //sanity
@@ -54,6 +56,7 @@ function ex2(){
         event.preventDefault();
         //remove hidden attribute from h2 element
         hiddenMessage.removeAttribute('hidden')
+        // super close just missing `remove attribute - disabled` and disabled attribute in your HTML
         //change inner text
         allowTyping.innerText = 'STOP TYPING!!!'
     }

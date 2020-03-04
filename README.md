@@ -1,12 +1,13 @@
 # JavaScript: Additional events, timers, add attributes
-
+#### Nice work. Super close on EX2 and great on EX1. Check out my comments in your JS file
+#### Score : 4/5
 ### Exercise 1: click handler/text
 Create a simple form with a single `checkbox` and the message `DON'T CLICK THIS CHECKBOX!`. When the User tries to click checkbox, change the label for the checkbox to say, `I TOLD YOU NOT TO CLICK THIS!!!`
 
 #### CHALLENGE:
 When user unchecks the box, reset the label text to original message
 
-### Exercise 2: add/remove attributes
+### Exercise 2: add/remove attributes INCOMPLETE
 Create a simple form with a fieldset, legend of `Post Text`, textarea, a *hidden* `<h2>` message with the text `Start typing`, and a button that says `Allow Typing`. 
 
 When the page initially displays, the textarea should be disabled, and the message hidden. When the User clicks the button, display the hidden message, change the text on the button to `Stop Typing`, and enable the textarea so you can type into it. Clicking the button a second time should hide the hidden message, change the text of the button back to `Start Typing`, and disable the textarea. Each press of the button should toggle this behavior.
